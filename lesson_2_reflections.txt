@@ -1,0 +1,26 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git creates metadata about the current folder. You do it so that git can create a branch. Checks the current state.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+the WD is the physical folder in you os. the staging area is where you put files for the first commit. the repo is the wd managed by git.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Review differences before commiting
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When you want to play with your code with exp features.
+
+How do the diagrams help you visualize the branch structure?
+
+It helps you understand how your project is evolving. Different configs?
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Your app now has all the features you were working on. Because it's easy to show and understand.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+It brings functionality together easily or it helps detect conflicts which should be solved by developers.
